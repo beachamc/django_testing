@@ -1,0 +1,7 @@
+Test Case 1
+With the constructor Paginator([1,2,3,4],2) the validate_number() method shall return an integer given a valid page number or return an appropriate error if the page number is incorrect.
+paginator_driver.py
+Paginator([1,2,3,4],2)
+validate_number(n)
+1
+1

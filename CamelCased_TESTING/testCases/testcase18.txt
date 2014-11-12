@@ -1,0 +1,7 @@
+Test Case 18
+Given a paginator object if a page has a next page, the has_next() method will return True.
+page_driver.py
+Paginator([1,2,3,4,5],1) Page([],n,paginator)
+has_next()
+4
+True

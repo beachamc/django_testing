@@ -1,0 +1,7 @@
+Test Case 10
+With an empty paginator object, validate number shall only return True if allow_empty_first_page=True and the number is 1.
+empty_first_page_driver.py
+Paginator([],1,allow_empty_first_page=myBool)
+validate_number(n)
+True,0
+EmptyPage

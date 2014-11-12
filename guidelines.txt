@@ -1,0 +1,30 @@
+change driver to only return result
+write runAllScripts.py -> (be careful for large number of test cases)
+	-iterate across all test case
+	-parse info
+	-calls driver with arguments from the test cases
+	-driver returns an output (use assertion)
+		-driver creates the object being tested
+	-compare output with the expected (try/catch)
+	-parse to html --> its own script "parseToHtml.py" 
+	-open in browser (import webbrowser --> webbrowser.open("file://index.html"))
+
+
+testCase format:
+	-Test Case ID
+	-Component being tested
+	-Method
+	-Input
+	-Expected
+	-Driver
+	-Requirement
+
+Example:
+
+TestCase1
+django.core.paginator
+validate_number(num)
+1
+1
+testValidate_Number.py
+Given a paginator object with at least one page, paginatorObject.validate_number(1) should return 1.
